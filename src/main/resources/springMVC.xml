@@ -29,7 +29,7 @@
     <!--<mvc:resources mapping="/static/js/**" location="/static/css/"/>-->
 
     <!--两个标准配置-->
-    <!--开启SpringMVC注解的支持-->
+    <!--开启SpringMVC注解的支持；支持SpringMVC更高级的一些功能，JSR303校验，快捷的ajax，映射动态请求-->
     <mvc:annotation-driven/>
     <!--将springMVC不能处理的请求交给tomcat-->
     <mvc:default-servlet-handler/>
